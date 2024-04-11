@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <style>
+        body{
+            margin: 0%;
+            background-color: #ccc;
+        }
+        
+       .navbar ul{
+            list-style-type: none;
+            background-color: rgb(73, 71, 71);
+            overflow: hidden;
+            margin: 0px;
+            padding: 0px;
+            border-radius: 20px,10px,5px;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+            border-radius: 20px;
+        }
+        
+        .navbar li{
+            float: left;
+        }
+        .navbar a:hover{
+            background-color:rgb(21, 4, 4);
+        }
+        .dropdown li{
+          position: relative;
+          display:inline-block;
+         }
+
+        .dropdown a{ 
+             display: block;
+        }
+        .dropdown {
+             width: 10%;
+             position: absolute;
+             display:none;
+        }
+        ul li:hover ul.dropdown{
+                 display:block ;
+
+        }
+        .summer{
+            text-align: center;
+        }
+        .winter{
+            margin-top: 30%;
+            text-align:center;
+        }
+        .box{
+            margin-top: 1%;
+            margin-left: 3%;
+            width: 300px;
+            height: 390px;
+            background-color: black;
+            color: #ccc;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            float: left;
+        }
+        .box:hover{
+            transform: scale(1.05);
+            transition: all 0.6s ease-in-out;
+            -webkit-transform: scale(1.05); /* Chrome and Safari */
+            -ms-transform: scale(1.05); /* IE 9 */
+            -moz-transform: scale(1.05); /* Firefox */
+         }
+        .box img{
+            width: 50%;
+            height: 50%;
+            margin-top: 1%;
+           margin-left: 4%;
+        }
+        .add{
+            font-size: 15px;
+            padding: 13px;
+            background-color:yellow;
+            color:black;
+            border-radius: 25px;
+            cursor: pointer;
+            float: left;
+            margin-left: 15%;
+        }
+        .add:hover {
+            background-color: rgb(196, 196, 12);
+            
+        }
+        .buy{
+            font-size: 15px;
+            padding: 13px;
+            background-color:orange;
+            color:black;
+            border-radius: 25px;
+            cursor: pointer;
+            float: right;
+            margin-right: 15%;
+        }
+        .buy:hover {
+            background-color: rgb(145, 97, 9);
+            
+        }
+    </style>
+
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About Us">About Us</a></li>
+    <li><a href="products.html">Products</a></li>
+    
+    <li><a href="contact.html">Contact</a></li>
+    <li style="float:right 10%">
+      <a href="">Product type</a>
+      <ul class="dropdown">
+        <li><a href="">winter wear</a></li>
+        <li><a href="">Summer wear</a></li>
+      </ul>
+    </li>  
+</ul>
+</nav>
+<div>
+<h1 class="summer">SUMMER WEAR'S</h1>
+<div class="box">
+    <img src="https://m.media-amazon.com/images/I/71Jl4DbJUjL._SY741_.jpg">
+    <h3>Leriya Fashion Shirt for Men</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add">Add to Cart</button><button class="buy">Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="https://m.media-amazon.com/images/I/919O-tebB4L._AC_UL480_FMwebp_QL65_.jpg">
+    <h3>Leriya Fashion Shirt for Men</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add">Add to Cart</button><button class="buy">Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="https://m.media-amazon.com/images/I/71ShBw4g6GL._AC_UL480_FMwebp_QL65_.jpg">
+    <h3>Leriya Fashion Shirt for Men</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add">Add to Cart</button><button class="buy">Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="https://m.media-amazon.com/images/I/51yUI8YGhoL._AC_UL480_FMwebp_QL65_.jpg">
+    <h3>Leriya Fashion Shirt for Men</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add">Add to Cart</button><button class="buy">Buy Now</button>
+    </div>
+</div>
+
+
+<div>
+<h1 class="winter">WINTER WEAR'S</h1>
+<div class="box">
+    <img src="https://images.bestsellerclothing.in/data/JJ/27-july-2023/247243201_g1.jpg?width=300&height=400&mode=fill&fill=blur&format=auto">
+    <h3>Leriya Fashion Shirt for Men</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add">Add to Cart</button><button class="buy">Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="https://m.media-amazon.com/images/I/81iqbU1joSL._AC_UL480_FMwebp_QL65_.jpg">
+    <h3>Leriya Fashion Shirt for Men</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add">Add to Cart</button><button class="buy">Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="https://m.media-amazon.com/images/I/71-iAOjEzyL._AC_UL480_FMwebp_QL65_.jpg">
+    <h3>Leriya Fashion Shirt for Men</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add">Add to Cart</button><button class="buy">Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="https://m.media-amazon.com/images/I/71ap2v-KHOL._AC_UL480_FMwebp_QL65_.jpg">
+    <h3>Leriya Fashion Shirt for Men</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button class="add">Add to Cart</button><button class="buy">Buy Now</button>
+</div>
+</div>
+</section>
+</body>
+</html>
